@@ -4,6 +4,7 @@ _local
 updateReqs
 *.html
 env
+.env
 pruebas_extras
 config
 testbench
