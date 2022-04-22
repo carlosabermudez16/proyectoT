@@ -1,0 +1,124 @@
+
+.sidebar{
+    position: relative;
+    color: #a5b1cd;      /*#7fafdf*/
+    background: #1f2c56; /*#1f2630 */
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 16px;
+    box-shadow: 2px 2px 2px 2px #bac7f1;
+    border-radius: 0px 15px 15px 0px;
+}
+
+
+.create_container {
+    border-radius: 5px;
+    background-color: #1f2c56;
+    margin: 15px;
+    padding: 15px;
+    position: relative;
+    box-shadow: 5px 2px 2px #141e3f;
+    
+}
+
+.selector1 {
+  border-radius: 5px;
+  background-color: #1f2c56;
+  margin: 15px;
+  margin-left: 29%;
+  padding: 5px;
+  position: absolute;
+  box-shadow: 5px 2px 2px #141e3f;
+  text-align: center;
+  z-index: 1;
+  height: 45px;
+}
+
+.selector3 {
+  border-radius: 5px;
+  background: #1f2c56;
+  margin: 15px;
+  padding: 5px;
+  position: absolute;
+  box-shadow: 0px 2px 2px #141e3f;
+  text-align: center;
+  z-index: 1;
+  color: #a5b1cd;
+  margin-left: 28.8%;
+}
+#selector3:hover {color: #2cfec1; }
+
+.selector4 {
+  border-radius: 5px;
+  background-color: #1f2c56;
+  margin: 15px;
+  padding: 5px;
+  position: absolute;
+  box-shadow: 5px 2px 2px #141e3f;
+  text-align: center;
+  z-index: 1;
+  color: #a5b1cd;
+}
+#selector4:hover {color: #2cfec1; }
+
+.grafica1 {
+  border-radius: 5px;
+  background: #1f2c56;
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 5px 2px 2px #141e3f;
+}
+.grafica2 {
+  border-radius: 5px;
+  background-color: #1f2c56;
+  margin: 15px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 5px 2px 2px #141e3f;
+}
+.flex-display {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.fix_label {
+font-size: 20px;
+  margin: 0;
+  padding: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  width: calc(100% - 40px);
+}
+
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.five.columns {
+    width: 39.3333333333%;
+  }
+
+.three.columns {
+    width: 22%;
+  }
+
+.dcc_compon {
+  margin: 0%;
+  padding: 5px;
+  width: calc(100%-40px);
+}
+/* Self Clearing Goodness */
+.container:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both;
+}
+

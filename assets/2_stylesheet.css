@@ -1,0 +1,757 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  
+}
+body {
+    margin: 0%;  
+    padding: 0;                      
+    background-size: cover; 
+  }
+
+#orden{
+  margin-bottom: 4%;
+  margin-top: 1%;
+  padding: 10px;
+  background: linear-gradient(-135deg, rgba(41, 65, 182, 0.5), #f1eff1 50%,rgba(41, 65, 182, 0.5));
+  border-radius: 15px;
+  box-shadow: 0px 5px 20px rgba(245, 241, 241, 0.8);
+}
+#orden1{
+  position: relative;
+  margin-bottom: 5%;
+  padding: 50px;
+  /*background: linear-gradient(to bottom, rgba(100, 149, 237, 0.8) 0%, rgba(0,0,0,0.6) 100%);*/
+  background: rgba(255, 255, 255, 0.8);
+  
+  border-radius: 15px;
+  box-shadow: 0px 5px 20px rgba(245, 241, 241, 0.8);
+}
+#titulo{
+    color: white;
+    font-size: 40px;
+    margin-left: 10%;
+    margin-top: 3%;
+    line-height: 60%;
+    float: left;
+    font-weight: 950;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(41, 65, 182, 0.5) ;
+}
+.LOGO{
+      margin-left: 15%;
+      float: left;
+      width: 100px;
+      height: 100px;
+    }
+#titulo2{
+  width: 100%;
+  padding: 15px;
+  color: white;
+  border-radius: 15px 15px 0 0;
+  background: linear-gradient(-135deg, rgba(41, 65, 182, 1), #f1eff1 50%,rgba(41, 65, 182, 1));
+
+}
+#input_username{
+    width: 100%;
+    height:50px;
+    margin-top:20px;
+    border-radius:25px;
+    border-color: cornflowerblue;
+    padding: 6px 10px;
+    background: transparent;
+    background: url(/static/icon/username.png);
+    background-position-x: 98%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+#input_email{
+  width: 100%;
+  height:50px;
+  margin-top:20px;
+  border-radius:25px;
+  border-color: cornflowerblue;
+  padding: 6px 10px;
+  background: transparent;
+  background: url(/static/icon/email.png);
+  background-position-x: 98%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#input_password{
+  width: 100%;
+  height:50px;
+  margin-top:20px;
+  border-radius:25px;
+  border-color: cornflowerblue;
+  background: transparent;
+  padding: 6px 10px;
+  background: url(/static/icon/password.png);
+  background-position-x: 98%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#btn3{
+        text-align: center;
+        background: linear-gradient(-135deg, #f1eff1, #2941b6);background-color: white;
+        color: white;
+        box-shadow: 0px 2px 3px rgba(121, 122, 121.1);
+        border-radius: 25px;
+        height: 38px;
+        display: inline-block;
+        padding: 0 30px;
+        font-size: 11px;
+        font-weight: 600;
+        line-height: 38px;
+        letter-spacing: .1rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        white-space: nowrap;
+        background-color: transparent;
+        border: 1px solid #bbb;
+        cursor: pointer;
+        box-sizing: border-box;
+        
+        
+     
+    }
+#btn3:hover{
+  background: cornflowerblue;
+}
+#btn3:active{
+  background: rgb(161, 225, 155);
+}
+
+#btn4{
+    text-align: center;
+    background: linear-gradient(-135deg, #f1eff1, #2941b6);
+    background-color: white;
+    color: white;
+    box-shadow: 0px 2px 3px rgba(121, 122, 121.1);
+    border-radius: 25px;
+    height: 38px;
+    display: inline-block;
+    padding: 0 30px;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box;
+    
+ 
+}
+#btn4:hover{
+background: cornflowerblue;
+}
+#btn4:active{
+background: rgb(161, 225, 155);
+}
+#btn5{width: 70%;
+    text-align: center;
+    background: linear-gradient(-135deg, #f1eff1, #2941b6);
+    background-color: white;
+    color: white;
+    box-shadow: 0px 2px 3px rgba(121, 122, 121.1);
+    border-radius: 25px;
+    height: 38px;
+    display: inline-block;
+    padding: 0 30px;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box;
+    
+ 
+}
+#btn5:hover{
+background: cornflowerblue;
+}
+#btn5:active{
+background: rgb(161, 225, 155);
+}
+
+#btn6{
+    text-align: center;
+    background: linear-gradient(-135deg, #f1eff1, #1f2c56);background-color: white;
+    color: white;
+    box-shadow: 0px 2px 3px rgba(121, 122, 121.1);
+    border-radius: 10px;
+    height: 38px;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 0px;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box;
+    
+    
+ 
+}
+#btn6:hover{
+background: cornflowerblue;
+}
+#btn6:active{
+background: rgb(161, 225, 155);
+}
+
+#btn7{
+text-align: center;
+background: linear-gradient(-135deg, #f1eff1, #1f2c56);
+background-color: white;
+color: white;
+box-shadow: 0px 2px 3px rgba(121, 122, 121.1);
+border-radius: 10px;
+height: 38px;
+display: inline-block;
+margin-left: 20px;
+padding: 0px;
+font-size: 11px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: .1rem;
+text-transform: uppercase;
+text-decoration: none;
+white-space: nowrap;
+background-color: transparent;
+border: 1px solid #bbb;
+cursor: pointer;
+box-sizing: border-box;
+
+
+}
+#btn7:hover{
+background: cornflowerblue;
+}
+#btn7:active{
+background: rgb(161, 225, 155);
+}
+#btn8{
+text-align: center;
+background: linear-gradient(-135deg, #f1eff1, #1f2c56);
+background-color: white;
+color: white;
+box-shadow: 0px 2px 3px rgba(121, 122, 121.1);
+border-radius: 10px;
+height: 38px;
+display: inline-block;
+margin-left: 20px;
+padding: 0px;
+font-size: 11px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: .1rem;
+text-transform: uppercase;
+text-decoration: none;
+white-space: nowrap;
+background-color: transparent;
+border: 1px solid #bbb;
+cursor: pointer;
+box-sizing: border-box;
+
+
+}
+#btn8:hover{
+background: cornflowerblue;
+}
+#btn8:active{
+background: rgb(161, 225, 155); 
+}
+
+.btn9{
+    margin: 0;
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(-135deg, #f1eff1, #1f2c56);
+    background-color: white;
+    color: white;
+    box-shadow: 0px 2px 3px rgba(121, 122, 121.1);
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: 600;
+    align-items: center;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box;
+    
+
+    }
+.btn9:hover{
+    background: cornflowerblue;
+    }
+.btn9:active{
+    background: rgb(161, 225, 155);
+    }
+
+.footer {
+    margin-top: 1.6%;
+    position: relative;
+    display: flex;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #d0daf0a7;
+    padding-left: 7%;
+    
+  }
+.contenedor{
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: auto;
+
+}
+.fila{
+  position: relative;
+  margin:auto;
+  width: 100%;
+  height: auto;
+      /*Las columnas dentro de una fila están flotando a la izquierda, y por lo tanto se toman
+      fuera del flujo de la página, y otros elementos serán colocados como si no fueran de las 
+      columnas. Para evitar esto, se adiciona un estilo que despeja el flujo*/
+  clear: both;
+  display: table; 
+}
+
+._dash-loading{
+    text-align: center;
+    margin-top: 25%;
+}
+
+.username:hover {color: #1EAEDB; }
+
+#estilo{
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    
+    border-radius: 100%;
+}
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.pie_pagina a{color: #1EAEDB; }
+.pie_pagina a:hover {color: #ce1c0f; }
+
+/*pantalla de escritorio grande*/
+@media(min-width:1200px){    
+  .col-lg-12{
+      width: 100%;
+      /*background: white;
+      border: 1px solid black;*/
+      text-align: center;
+  }
+  .col-lg-11{
+      width: 91.66666667%;
+      background: rgb(180, 69, 25);
+      border: 1px solid black;
+      text-align: center;
+  }
+  .col-lg-10{
+      float: left;
+      width: 83.33333333%;
+      /*background: rgb(133, 180, 157);
+      border: 1px solid rgb(0, 0, 0);*/
+      text-align: center;
+  }
+  .col-lg-9{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 75%;    /*la operación es 4*100/12 = 33.3333...*/
+      /*background: rgb(148, 95, 111);
+      border: 1px solid black;*/
+      text-align: center;
+  }
+  .col-lg-8{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 66.66666667%;    /*la operación es 4*100/12 = 33.3333...*/
+      /*background: rgb(198, 191, 223);
+      border: 1px solid black;*/
+      text-align: center;
+      padding: 10px;
+  }
+  .col-lg-7{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 58.33333333%;    /*la operación es 4*100/12 = 33.3333...*/
+      /*background: rgb(208, 153, 230);
+      border: 1px solid black;*/
+      text-align: center;
+  }
+  .col-lg-6{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 50%;
+      /*background: rgb(95, 148, 97);
+      border: 1px solid black;*/
+      text-align: center;
+  }
+  .col-lg-5{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 41.66666667%;    /*la operación es 4*100/12 = 33.3333...*/
+      /*background: rgb(127, 206, 195);
+      border: 1px solid black;*/
+      text-align: center;
+  }
+  .col-lg-4{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 33.33333333%;    /*la operación es 4*100/12 = 33.3333...*/
+      /*background: rgb(95, 136, 148);
+      border: 1px solid black;*/
+      text-align: center;
+  }
+  .col-lg-3{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 25%;    /*la operación es 4*100/12 = 33.3333...*/
+      /*background: rgb(106, 95, 148);
+      border: 1px solid black;*/
+      text-align: center;
+  }
+  .col-lg-2{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 16.66666667%;    /*la operación es 4*100/12 = 33.3333...*/
+      /*background: rgb(65, 223, 99);
+      border: 1px solid black;*/
+      text-align: center;
+      /*padding: 10px;*/
+  }
+  .col-lg-1{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 8.33333333%;    /*la operación es 4*100/12 = 33.3333...*/
+      /*background: rgb(198, 236, 148);
+      border: 1px solid black;*/
+      text-align: center;
+  }
+}
+/*pantalla de escritorio mediano*/
+@media(max-width:1199px) and (min-width:992px){    
+  .col-md-12{
+      width: 100%;
+      /*background: coral;
+      border: 1px solid black;*/
+      text-align: center;
+  }
+  .col-md-11{
+      float: left;
+      width: 91.66666667%;
+      background: rgb(180, 69, 25);
+      border: 1px solid black;
+      text-align: center;
+  }
+  .col-md-10{
+      float: left;
+      width: 83.33333333%;
+      background: rgb(4, 243, 124);
+      border: 1px solid rgb(0, 0, 0);
+      text-align: center;
+  }
+  .col-md-9{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 75%;    /*la operación es 4*100/12 = 33.3333...*/
+      background: rgb(148, 95, 111);
+      border: 1px solid black;
+      text-align: center;
+  }
+  .col-md-8{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 66.66666667%;    /*la operación es 4*100/12 = 33.3333...*/
+      /*background: rgb(198, 191, 223);
+      border: 1px solid black;*/
+      text-align: center;
+  }
+  .col-md-7{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 58.33333333%;    /*la operación es 4*100/12 = 33.3333...*/
+      background: rgb(208, 153, 230);
+      border: 1px solid black;
+      text-align: center;
+  }
+  .col-md-6{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 50%;
+      /*background: rgb(95, 148, 97);
+      border: 1px solid black;*/
+      text-align: center;
+  }
+  .col-md-5{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 41.66666667%;    /*la operación es 4*100/12 = 33.3333...*/
+      background: rgb(127, 206, 195);
+      border: 1px solid black;
+      text-align: center;
+  }
+  .col-md-4{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 33.33333333%;    /*la operación es 4*100/12 = 33.3333...*/
+      /*background: rgb(95, 136, 148);
+      border: 1px solid black;*/
+      text-align: center;
+  }
+  .col-md-3{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 25%;    /*la operación es 4*100/12 = 33.3333...*/
+      /*background: rgb(106, 95, 148);
+      border: 1px solid black;*/
+      text-align: center;
+  }
+  .col-md-2{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 16.66666667%;    /*la operación es 4*100/12 = 33.3333...*/
+      /*background: rgb(65, 223, 99);
+      border: 1px solid black;*/
+      text-align: center;
+  }
+  .col-md-1{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 8.33333333%;    /*la operación es 4*100/12 = 33.3333...*/
+      /*background: rgb(198, 236, 148);
+      border: 1px solid black;*/
+      text-align: center;
+  }
+  /*personalizar tamaño para pantalla movil*/
+  .LOGO {width: 80px;height: 80px;margin-left: 45%;}
+  #orden1{margin: 10%;}
+  #titulo{margin-bottom: 10px;}
+}
+/*pantalla de tablet*/
+@media(max-width:991px) and (min-width:768px){    
+  .col-sm-12{
+      width: 100%;
+      /*background: coral;
+      border: 1px solid black;*/
+      text-align: center;
+  }
+  .col-sm-11{
+      float: left;
+      width: 91.66666667%;
+      background: rgb(180, 69, 25);
+      border: 1px solid black;
+      text-align: center;
+  }
+  .col-sm-10{
+      float: left;
+      width: 83.33333333%;
+      background: rgb(4, 243, 124);
+      border: 1px solid rgb(0, 0, 0);
+      text-align: center;
+  }
+  .col-sm-9{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 75%;    /*la operación es 4*100/12 = 33.3333...*/
+      background: rgb(148, 95, 111);
+      border: 1px solid black;
+      text-align: center;
+  }
+  .col-sm-8{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 66.66666667%;    /*la operación es 4*100/12 = 33.3333...*/
+      /*background: rgb(198, 191, 223);
+      border: 1px solid black;*/
+      text-align: center;
+  }
+  .col-sm-7{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 58.33333333%;    /*la operación es 4*100/12 = 33.3333...*/
+      background: rgb(208, 153, 230);
+      border: 1px solid black;
+      text-align: center;
+  }
+  .col-sm-6{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 50%;
+      /*background: rgb(95, 148, 97);
+      border: 1px solid black;*/
+      text-align: center;
+  }
+  .col-sm-5{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 41.66666667%;    /*la operación es 4*100/12 = 33.3333...*/
+      background: rgb(127, 206, 195);
+      border: 1px solid black;
+      text-align: center;
+  }
+  .col-sm-4{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 33.33333333%;    /*la operación es 4*100/12 = 33.3333...*/
+      /*background: rgb(95, 136, 148);
+      border: 1px solid black;*/
+      text-align: center;
+  }
+  .col-sm-3{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 25%;    /*la operación es 4*100/12 = 33.3333...*/
+      /*background: rgb(106, 95, 148);
+      border: 1px solid black;*/
+      text-align: center;
+  }
+  .col-sm-2{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 16.66666667%;    /*la operación es 4*100/12 = 33.3333...*/
+      /*background: rgb(65, 223, 99);
+      border: 1px solid black;*/
+      text-align: center;
+  }
+  .col-sm-1{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 8.33333333%;    /*la operación es 4*100/12 = 33.3333...*/
+      /*background: rgb(198, 236, 148);
+      border: 1px solid black;*/
+      text-align: center;
+  }
+
+  /*personalizar tamaño para pantalla movil*/
+ .LOGO{margin: 0;padding: 0;margin-left: 45%;}
+ #titulo{margin-bottom: 10px;margin-left: 20px;}
+ #orden{
+    padding-bottom: 10px;}
+ #orden1{
+          margin: 8%;}
+}
+/*pantalla de phones*/
+@media(max-width:767px){    
+  .col-xs-12{
+      width: 100%;
+      /*background: coral;
+      border: 1px solid black;*/
+      text-align: center;
+  }
+  .col-xs-11{
+      float: left;
+      width: 91.66666667%;
+      background: rgb(180, 69, 25);
+      border: 1px solid black;
+      text-align: center;
+  }
+  .col-xs-10{
+      float: left;
+      width: 83.33333333%;
+      background: rgb(4, 243, 124);
+      border: 1px solid rgb(0, 0, 0);
+      text-align: center;
+  }
+  .col-xs-9{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 75%;    /*la operación es 4*100/12 = 33.3333...*/
+      background: rgb(148, 95, 111);
+      border: 1px solid black;
+      text-align: center;
+  }
+  .col-xs-8{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 66.66666667%;    /*la operación es 4*100/12 = 33.3333...*/
+      /*background: rgb(198, 191, 223);
+      border: 1px solid black;*/
+      text-align: center;
+  }
+  .col-xs-7{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 58.33333333%;    /*la operación es 4*100/12 = 33.3333...*/
+      background: rgb(208, 153, 230);
+      border: 1px solid black;
+      text-align: center;
+  }
+  .col-xs-6{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 50%;
+      /*background: rgb(95, 148, 97);
+      border: 1px solid black;*/
+      text-align: center;
+  }
+  .col-xs-5{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 41.66666667%;    /*la operación es 4*100/12 = 33.3333...*/
+      background: rgb(127, 206, 195);
+      border: 1px solid black;
+      text-align: center;
+  }
+  .col-xs-4{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 33.33333333%;    /*la operación es 4*100/12 = 33.3333...*/
+      /*background: rgb(95, 136, 148);
+      border: 1px solid black;*/
+      text-align: center;
+  }
+  .col-xs-3{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 25%;    /*la operación es 4*100/12 = 33.3333...*/
+      /*background: rgb(106, 95, 148);
+      border: 1px solid black;*/
+      text-align: center;
+  }
+  .col-xs-2{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 16.66666667%;    /*la operación es 4*100/12 = 33.3333...*/
+      /*background: rgb(65, 223, 99);
+      border: 1px solid black;*/
+      text-align: center;
+  }
+  .col-xs-1{
+      float: left;    /*permite que la columna se acomode de izquierda a derecha*/
+      width: 8.33333333%;    /*la operación es 4*100/12 = 33.3333...*/
+      /*background: rgb(198, 236, 148);
+      border: 1px solid black;*/
+      text-align: center;
+  }
+
+  /*personalizar tamaño para pantalla movil*/
+  .LOGO {width: 20%;height: 20%;margin-left: 40%;margin-top: 20px;}
+  #titulo{margin-bottom: 10px;margin-left: 5px; font-size: 20px;}
+  .orden{margin-top: 20%;}
+  
+}
+
+
+/* modifica el ancho de la barra de desplazamiento */
+::-webkit-scrollbar {
+    width: 10px !important;
+    display: block !important;
+  }
+  
+  /* modifica el fondo de la barra de desplazamiento*/
+  ::-webkit-scrollbar-track {
+    background: #1f2c56 !important;
+    border-radius: 10px !important;
+    display: block !important;
+  }
+  
+  /* modifica el color de la barra de desplazamiento estatica*/
+  ::-webkit-scrollbar-thumb {
+    background: #5a6380;
+  }
+  
+  /* modifica el color la barra de desplazamiento cuando se usa*/
+  ::-webkit-scrollbar-thumb:hover {
+    background-image: linear-gradient(to top,#30cfd0 0%,#330867 100%) !important;
+  }
+  
+
+
+
