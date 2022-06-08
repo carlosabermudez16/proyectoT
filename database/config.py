@@ -1,6 +1,5 @@
 import os
 from dotenv import load_dotenv
-from matplotlib.pyplot import get
 
 load_dotenv()
 

@@ -3,7 +3,7 @@ from dash import html
 from dash.dependencies import Input, Output, State
 
 from server import app, User
-from flask_login import login_user,current_user
+from flask_login import login_user,current_user # Este current_user representa al usuario de la base de datos, y podemos acceder a todos los atributos de ese usuario con notación por puntos.
 from werkzeug.security import check_password_hash
 
 app.title = "Inicio de sesión"

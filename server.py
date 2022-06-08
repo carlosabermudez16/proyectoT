@@ -26,7 +26,6 @@ app.config.suppress_callback_exceptions = True
 app.css.config.serve_locally = True
 app.scripts.config.serve_locally = True
 
-
 # Actualiza la base de datos siempre que se inicie el servidor
 server.config.update(
     SECRET_KEY=os.urandom(12),  # se establece la variable de configuración, genera un token que sirve para proteger la aplicación de ataques 
@@ -35,18 +34,17 @@ server.config.update(
 )
 
 
-db.init_app(server) # inicializa la aplicación con la configuración de la base de datos
+db.init_app(server) # inicializa la base de datos en conjunto con la aplicación
 
 # 
-login_manager = LoginManager()  # LoginManager es una clase que contiene la lógica para cargar o redifigir a un usuario
+login_manager = LoginManager()  #  Un cargador de usuario indica a Flask-Login cómo encontrar un usuario específico a partir del 
+                                # identificador que se almacena en su cookie de sesión
 login_manager.init_app(server)  # configurarción para iniciar sesión 
 login_manager.login_view = '/login' # si un usuario intenta acceder a una vista protegida esto lo redirecciona a la pagina de login
 
 
 
-# previamente ya está creada la clase User en el archivo users_mgt, que contiene la información de los usuarios.
-# User es nombrada en este archivo como "base",
-# Se crea una nueva clase User en este archivo para facilitar la implementación con los métodos de flask_login
+#  El UserMixin añadirá atributos de Flask-Login al modelo de forma que Flask-Login pueda trabajar con él.
 class User(UserMixin, base):
     pass
 

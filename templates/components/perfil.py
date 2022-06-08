@@ -1,7 +1,7 @@
 from server import app
 from dash.dependencies import Input, Output
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import dcc
+from dash import html
 
 
 
@@ -32,9 +32,8 @@ perfil = html.Div([
 
 def parse_contents(contents):
     return html.Div([
-        # HTML images accept base64 encoded strings in the same format
-        # that is supplied by the upload
-        html.Img(src=contents,
+            html.Img(
+                src=contents,
                 style={
                     'width': '50px',
                     'height': '50px',
@@ -49,7 +48,7 @@ def parse_contents(contents):
                     'z-index':'-1',
                     'cursor':'pointer',
                     },
-            ),
+                ),
         ],
         )
 
@@ -61,4 +60,3 @@ def update_output(list_of_contents):
         children = [
             parse_contents(c) for c in list_of_contents]
         return children
-
