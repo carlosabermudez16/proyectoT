@@ -12,7 +12,6 @@ run_flask_server
 push_to_server
 .idea
 
-
 .env
 Data_base_firebase2/
 Archivo_JSON/
