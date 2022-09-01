@@ -10,7 +10,6 @@ run_gunicorn
 run_flask_server
 push_to_server
 .idea
-.env
 
 Data_base_firebase2/
 Archivo_JSON_dataface/
@@ -19,6 +18,7 @@ data1/
 Archivo_JSON/
 pruebas_extras/
 env/
+.env
 
 #Standard gitignore
 # Compiled source #
