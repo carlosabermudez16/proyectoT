@@ -4,7 +4,6 @@ _local
 updateReqs
 *.html
 env
-pruebas_extras
 config
 testbench
 bkpMySQL
@@ -12,8 +11,17 @@ run_gunicorn
 run_flask_server
 push_to_server
 .idea
+
 .env
 Data_base_firebase2/
+Archivo_JSON/
+Archivo_JSON_dataface/
+data1/
+env/
+pruebas_extras/
+Resultados2/
+
+
 #Standard gitignore
 # Compiled source #
 ###################
