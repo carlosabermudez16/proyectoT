@@ -188,12 +188,18 @@ layout = html.Div([
                ])
 def update_graph(selector3, all_rows_data, slctd_row_indices, slct_rows_names, slctd_rows,
                order_of_rows_indices, order_of_rows_names, actv_cell, slctd_cell):
+    print('*'*20)
+    print(selector3)
+    print(all_rows_data)
+    print(slctd_row_indices)
+    print(order_of_rows_indices)
+    print('*'*20)
     
     dffa = pd.DataFrame(all_rows_data)
-    colors = ['#F65114' if i in slctd_row_indices else '#00d970'
-              for i in range(len(dffa))]
-    colors2 = ['#6713F0' if i in slctd_row_indices else '#e55467'
-              for i in range(len(dffa))]
+    
+    colors = ['#F65114' if i in slctd_row_indices else '#00d970' for i in range(len(dffa))]
+    colors2 = ['#6713F0' if i in slctd_row_indices else '#e55467' for i in range(len(dffa))]
+    
     g = os.listdir(f"./Data_base_firebase2/DOCENTES/107435720803934230443/107435720803934230443_Yolfanis Vides Uribe_FORMACION PEDAGOGICA .FR001/FOTO_CLASE")
     var = "data1/asistencia_cm.csv"
 

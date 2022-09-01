@@ -140,7 +140,7 @@ else:
         file.close()
     
     filedownload(conteo,n)
-
+    pass
 
 materia = os.listdir('Data_base_firebase2/DOCENTES/107435720803934230443') # condición especifica de uso para este proyecto
 print(materia)
@@ -250,6 +250,9 @@ botones = html.Div([
 dfaa = pd.DataFrame(
                   columns=['Nombre', 'Total_As', 'Fallas']
                   )
+"""------ Prueba default ------"""
+dfaa = pd.read_csv('./data1/asistencia_cm.csv')
+"""------ -------------- ------"""
 
 def tabla_output(id_data,dataframe):
     dataframe = pd.DataFrame(dataframe)
@@ -686,14 +689,9 @@ def filter(grupos_clase,procesar,data,ts1):#data1,data2,ts1,ts2,ts3):
                     else:
                         remove(f'{var0}/asistencia_cm.csv')
                         df2.to_csv(f'./{var0}/asistencia_cm.csv', index = False)
-
-            
-
+                        
             return df2.to_dict('records'),tooltip_data[0]
-
     else:
-        #dfa = pd.read_csv('./data/Asistencia_3.csv')
-
         tooltip_data= [{'Nombre': 
                                 {'value': 'Estudiante: \n\n\n![foto]({})'.format(
                                                             app.get_asset_url('images/'+str(value).replace(' ','_')+'.PNG')), 
@@ -703,10 +701,9 @@ def filter(grupos_clase,procesar,data,ts1):#data1,data2,ts1,ts2,ts3):
         # Return all the rows on initial load/no country selected.
         return dfaa.to_dict('records'),tooltip_data[0]
 
-        
     raise PreventUpdate
     
-
+"""Envío de formulario"""
 @app.callback(Output('confirm', 'displayed'),
               Input('btn8', 'n_clicks'))
 def display_confirm(value):

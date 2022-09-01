@@ -12,7 +12,8 @@ run_gunicorn
 run_flask_server
 push_to_server
 .idea
-
+.env
+Data_base_firebase2/
 #Standard gitignore
 # Compiled source #
 ###################
