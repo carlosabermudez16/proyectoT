@@ -130,14 +130,14 @@ layout = html.Div(
             html.Div([
                 html.Div([
                             html.Div([
-                                html.P(['© Todos los derechos reservados 2021'], style={'font-size':'14px','color': '#99abb4'}),
+                                html.P(['© Todos los derechos reservados 2022'], style={'font-size':'14px','color': '#99abb4'}),
                                     ], style={'line-height':'25px','width':'60%'}
                                     ),
 
                             html.Div([
-                                    html.P([html.A('Términos y condiciones', href='https://ourworldindata.org/', target='_blank'), 
-                                            html.A('Política de privacidad', href='http://www.fao.org/faostat/en/#data', target='_blank',style={'padding-left':'15px'}),
-                                            html.A('Aviso Legal', href='http://www.fao.org/faostat/en/#data', target='_blank',style={'padding-left':'15px'}),
+                                    html.P([html.A('Términos y condiciones', href='#', target='_blank'), 
+                                            html.A('Política de privacidad', href='#', target='_blank',style={'padding-left':'15px'}),
+                                            html.A('Aviso Legal', href='#', target='_blank',style={'padding-left':'15px'}),
                                             ], style={'font-size':'14px'}, className='pie_pagina')
                                     ], style={'line-height':'25px','width':'40%'}
                                     ),

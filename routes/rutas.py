@@ -1,5 +1,5 @@
 from flask_login import current_user
-
+from dash import html
 from server import app
 from dash.dependencies import Input, Output
 from templates.auth import login, registro
@@ -38,4 +38,6 @@ def display_page(pathname):
         else:
             return login_fd.layout
     else:
-        return '404'
+        return html.Div([
+                        'Para acceder a la dirección primero debe iniciar sesión'
+                        ], className='contenedor fila',style={'margin-top':'100px', 'text-align': 'center'})
